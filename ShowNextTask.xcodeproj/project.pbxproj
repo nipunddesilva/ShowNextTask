@@ -1,0 +1,542 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		405E409B1963FCAA00D6EC9C /* TaskEditorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 405E409A1963FCAA00D6EC9C /* TaskEditorViewController.m */; };
+		40DB4DF51962E3C600C990F0 /* AddedTaskViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40DB4DF31962E3C600C990F0 /* AddedTaskViewController.m */; };
+		40DB4DF61962E3C600C990F0 /* AddedTaskViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40DB4DF41962E3C600C990F0 /* AddedTaskViewController.xib */; };
+		40E5306D1961A8B800B9B1C3 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40E5306B1961A8B800B9B1C3 /* MainViewController.m */; };
+		40E5306E1961A8B800B9B1C3 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40E5306C1961A8B800B9B1C3 /* MainViewController.xib */; };
+		40F91C5E195D223B00C6F645 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40F91C5D195D223B00C6F645 /* Foundation.framework */; };
+		40F91C60195D223B00C6F645 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40F91C5F195D223B00C6F645 /* CoreGraphics.framework */; };
+		40F91C62195D223B00C6F645 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40F91C61195D223B00C6F645 /* UIKit.framework */; };
+		40F91C68195D223B00C6F645 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 40F91C66195D223B00C6F645 /* InfoPlist.strings */; };
+		40F91C6A195D223B00C6F645 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 40F91C69195D223B00C6F645 /* main.m */; };
+		40F91C6E195D223B00C6F645 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 40F91C6D195D223B00C6F645 /* AppDelegate.m */; };
+		40F91C70195D223B00C6F645 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40F91C6F195D223B00C6F645 /* Images.xcassets */; };
+		40F91C77195D223B00C6F645 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40F91C76195D223B00C6F645 /* XCTest.framework */; };
+		40F91C78195D223B00C6F645 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40F91C5D195D223B00C6F645 /* Foundation.framework */; };
+		40F91C79195D223B00C6F645 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40F91C61195D223B00C6F645 /* UIKit.framework */; };
+		40F91C81195D223B00C6F645 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 40F91C7F195D223B00C6F645 /* InfoPlist.strings */; };
+		40F91C83195D223B00C6F645 /* ShowNextTaskTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 40F91C82195D223B00C6F645 /* ShowNextTaskTests.m */; };
+		40F91C90195D246200C6F645 /* TaskAdderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40F91C8E195D246200C6F645 /* TaskAdderViewController.m */; };
+		40F91C91195D246200C6F645 /* TaskAdderViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40F91C8F195D246200C6F645 /* TaskAdderViewController.xib */; };
+		40F91C98195D2A8600C6F645 /* Task.m in Sources */ = {isa = PBXBuildFile; fileRef = 40F91C97195D2A8600C6F645 /* Task.m */; };
+		40F91C9B195D4EB000C6F645 /* TaskListHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 40F91C9A195D4EB000C6F645 /* TaskListHandler.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		40F91C7A195D223B00C6F645 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 40F91C52195D223A00C6F645 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 40F91C59195D223A00C6F645;
+			remoteInfo = ShowNextTask;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		405E40991963FCAA00D6EC9C /* TaskEditorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TaskEditorViewController.h; sourceTree = "<group>"; };
+		405E409A1963FCAA00D6EC9C /* TaskEditorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TaskEditorViewController.m; sourceTree = "<group>"; };
+		40DB4DF21962E3C600C990F0 /* AddedTaskViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddedTaskViewController.h; sourceTree = "<group>"; };
+		40DB4DF31962E3C600C990F0 /* AddedTaskViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddedTaskViewController.m; sourceTree = "<group>"; };
+		40DB4DF41962E3C600C990F0 /* AddedTaskViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddedTaskViewController.xib; sourceTree = "<group>"; };
+		40E5306A1961A8B800B9B1C3 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		40E5306B1961A8B800B9B1C3 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		40E5306C1961A8B800B9B1C3 /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		40F91C5A195D223B00C6F645 /* ShowNextTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShowNextTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		40F91C5D195D223B00C6F645 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		40F91C5F195D223B00C6F645 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		40F91C61195D223B00C6F645 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		40F91C65195D223B00C6F645 /* ShowNextTask-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ShowNextTask-Info.plist"; sourceTree = "<group>"; };
+		40F91C67195D223B00C6F645 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		40F91C69195D223B00C6F645 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		40F91C6B195D223B00C6F645 /* ShowNextTask-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ShowNextTask-Prefix.pch"; sourceTree = "<group>"; };
+		40F91C6C195D223B00C6F645 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		40F91C6D195D223B00C6F645 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		40F91C6F195D223B00C6F645 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		40F91C75195D223B00C6F645 /* ShowNextTaskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShowNextTaskTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		40F91C76195D223B00C6F645 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		40F91C7E195D223B00C6F645 /* ShowNextTaskTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ShowNextTaskTests-Info.plist"; sourceTree = "<group>"; };
+		40F91C80195D223B00C6F645 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		40F91C82195D223B00C6F645 /* ShowNextTaskTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShowNextTaskTests.m; sourceTree = "<group>"; };
+		40F91C8D195D246200C6F645 /* TaskAdderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TaskAdderViewController.h; sourceTree = "<group>"; };
+		40F91C8E195D246200C6F645 /* TaskAdderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TaskAdderViewController.m; sourceTree = "<group>"; };
+		40F91C8F195D246200C6F645 /* TaskAdderViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TaskAdderViewController.xib; sourceTree = "<group>"; };
+		40F91C96195D2A8600C6F645 /* Task.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Task.h; sourceTree = "<group>"; };
+		40F91C97195D2A8600C6F645 /* Task.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Task.m; sourceTree = "<group>"; };
+		40F91C99195D4EB000C6F645 /* TaskListHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TaskListHandler.h; sourceTree = "<group>"; };
+		40F91C9A195D4EB000C6F645 /* TaskListHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TaskListHandler.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		40F91C57195D223A00C6F645 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40F91C60195D223B00C6F645 /* CoreGraphics.framework in Frameworks */,
+				40F91C62195D223B00C6F645 /* UIKit.framework in Frameworks */,
+				40F91C5E195D223B00C6F645 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40F91C72195D223B00C6F645 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40F91C77195D223B00C6F645 /* XCTest.framework in Frameworks */,
+				40F91C79195D223B00C6F645 /* UIKit.framework in Frameworks */,
+				40F91C78195D223B00C6F645 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		405E40981963F82600D6EC9C /* TaskEditor */ = {
+			isa = PBXGroup;
+			children = (
+				405E40991963FCAA00D6EC9C /* TaskEditorViewController.h */,
+				405E409A1963FCAA00D6EC9C /* TaskEditorViewController.m */,
+			);
+			path = TaskEditor;
+			sourceTree = "<group>";
+		};
+		40DB4DF11962E36E00C990F0 /* AddedTask */ = {
+			isa = PBXGroup;
+			children = (
+				40DB4DF21962E3C600C990F0 /* AddedTaskViewController.h */,
+				40DB4DF31962E3C600C990F0 /* AddedTaskViewController.m */,
+				40DB4DF41962E3C600C990F0 /* AddedTaskViewController.xib */,
+			);
+			path = AddedTask;
+			sourceTree = "<group>";
+		};
+		40E530641961936600B9B1C3 /* MainView */ = {
+			isa = PBXGroup;
+			children = (
+				40E5306A1961A8B800B9B1C3 /* MainViewController.h */,
+				40E5306B1961A8B800B9B1C3 /* MainViewController.m */,
+				40E5306C1961A8B800B9B1C3 /* MainViewController.xib */,
+			);
+			path = MainView;
+			sourceTree = "<group>";
+		};
+		40F91C51195D223A00C6F645 = {
+			isa = PBXGroup;
+			children = (
+				405E40981963F82600D6EC9C /* TaskEditor */,
+				40DB4DF11962E36E00C990F0 /* AddedTask */,
+				40E530641961936600B9B1C3 /* MainView */,
+				40F91C92195D28AC00C6F645 /* TaskList */,
+				40F91C8C195D23CB00C6F645 /* TaskAdder */,
+				40F91C63195D223B00C6F645 /* ShowNextTask */,
+				40F91C7C195D223B00C6F645 /* ShowNextTaskTests */,
+				40F91C5C195D223B00C6F645 /* Frameworks */,
+				40F91C5B195D223B00C6F645 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		40F91C5B195D223B00C6F645 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				40F91C5A195D223B00C6F645 /* ShowNextTask.app */,
+				40F91C75195D223B00C6F645 /* ShowNextTaskTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		40F91C5C195D223B00C6F645 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				40F91C5D195D223B00C6F645 /* Foundation.framework */,
+				40F91C5F195D223B00C6F645 /* CoreGraphics.framework */,
+				40F91C61195D223B00C6F645 /* UIKit.framework */,
+				40F91C76195D223B00C6F645 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		40F91C63195D223B00C6F645 /* ShowNextTask */ = {
+			isa = PBXGroup;
+			children = (
+				40F91C6C195D223B00C6F645 /* AppDelegate.h */,
+				40F91C6D195D223B00C6F645 /* AppDelegate.m */,
+				40F91C6F195D223B00C6F645 /* Images.xcassets */,
+				40F91C64195D223B00C6F645 /* Supporting Files */,
+			);
+			path = ShowNextTask;
+			sourceTree = "<group>";
+		};
+		40F91C64195D223B00C6F645 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				40F91C65195D223B00C6F645 /* ShowNextTask-Info.plist */,
+				40F91C66195D223B00C6F645 /* InfoPlist.strings */,
+				40F91C69195D223B00C6F645 /* main.m */,
+				40F91C6B195D223B00C6F645 /* ShowNextTask-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		40F91C7C195D223B00C6F645 /* ShowNextTaskTests */ = {
+			isa = PBXGroup;
+			children = (
+				40F91C82195D223B00C6F645 /* ShowNextTaskTests.m */,
+				40F91C7D195D223B00C6F645 /* Supporting Files */,
+			);
+			path = ShowNextTaskTests;
+			sourceTree = "<group>";
+		};
+		40F91C7D195D223B00C6F645 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				40F91C7E195D223B00C6F645 /* ShowNextTaskTests-Info.plist */,
+				40F91C7F195D223B00C6F645 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		40F91C8C195D23CB00C6F645 /* TaskAdder */ = {
+			isa = PBXGroup;
+			children = (
+				40F91C8D195D246200C6F645 /* TaskAdderViewController.h */,
+				40F91C8E195D246200C6F645 /* TaskAdderViewController.m */,
+				40F91C8F195D246200C6F645 /* TaskAdderViewController.xib */,
+			);
+			path = TaskAdder;
+			sourceTree = "<group>";
+		};
+		40F91C92195D28AC00C6F645 /* TaskList */ = {
+			isa = PBXGroup;
+			children = (
+				40F91C96195D2A8600C6F645 /* Task.h */,
+				40F91C97195D2A8600C6F645 /* Task.m */,
+				40F91C99195D4EB000C6F645 /* TaskListHandler.h */,
+				40F91C9A195D4EB000C6F645 /* TaskListHandler.m */,
+			);
+			path = TaskList;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		40F91C59195D223A00C6F645 /* ShowNextTask */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40F91C86195D223B00C6F645 /* Build configuration list for PBXNativeTarget "ShowNextTask" */;
+			buildPhases = (
+				40F91C56195D223A00C6F645 /* Sources */,
+				40F91C57195D223A00C6F645 /* Frameworks */,
+				40F91C58195D223A00C6F645 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShowNextTask;
+			productName = ShowNextTask;
+			productReference = 40F91C5A195D223B00C6F645 /* ShowNextTask.app */;
+			productType = "com.apple.product-type.application";
+		};
+		40F91C74195D223B00C6F645 /* ShowNextTaskTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40F91C89195D223B00C6F645 /* Build configuration list for PBXNativeTarget "ShowNextTaskTests" */;
+			buildPhases = (
+				40F91C71195D223B00C6F645 /* Sources */,
+				40F91C72195D223B00C6F645 /* Frameworks */,
+				40F91C73195D223B00C6F645 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				40F91C7B195D223B00C6F645 /* PBXTargetDependency */,
+			);
+			name = ShowNextTaskTests;
+			productName = ShowNextTaskTests;
+			productReference = 40F91C75195D223B00C6F645 /* ShowNextTaskTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		40F91C52195D223A00C6F645 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = NotAOrganization;
+				TargetAttributes = {
+					40F91C74195D223B00C6F645 = {
+						TestTargetID = 40F91C59195D223A00C6F645;
+					};
+				};
+			};
+			buildConfigurationList = 40F91C55195D223A00C6F645 /* Build configuration list for PBXProject "ShowNextTask" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 40F91C51195D223A00C6F645;
+			productRefGroup = 40F91C5B195D223B00C6F645 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				40F91C59195D223A00C6F645 /* ShowNextTask */,
+				40F91C74195D223B00C6F645 /* ShowNextTaskTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		40F91C58195D223A00C6F645 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40DB4DF61962E3C600C990F0 /* AddedTaskViewController.xib in Resources */,
+				40F91C68195D223B00C6F645 /* InfoPlist.strings in Resources */,
+				40F91C70195D223B00C6F645 /* Images.xcassets in Resources */,
+				40F91C91195D246200C6F645 /* TaskAdderViewController.xib in Resources */,
+				40E5306E1961A8B800B9B1C3 /* MainViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40F91C73195D223B00C6F645 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40F91C81195D223B00C6F645 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		40F91C56195D223A00C6F645 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40DB4DF51962E3C600C990F0 /* AddedTaskViewController.m in Sources */,
+				40F91C98195D2A8600C6F645 /* Task.m in Sources */,
+				40E5306D1961A8B800B9B1C3 /* MainViewController.m in Sources */,
+				40F91C90195D246200C6F645 /* TaskAdderViewController.m in Sources */,
+				40F91C9B195D4EB000C6F645 /* TaskListHandler.m in Sources */,
+				40F91C6E195D223B00C6F645 /* AppDelegate.m in Sources */,
+				405E409B1963FCAA00D6EC9C /* TaskEditorViewController.m in Sources */,
+				40F91C6A195D223B00C6F645 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40F91C71195D223B00C6F645 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40F91C83195D223B00C6F645 /* ShowNextTaskTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		40F91C7B195D223B00C6F645 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 40F91C59195D223A00C6F645 /* ShowNextTask */;
+			targetProxy = 40F91C7A195D223B00C6F645 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		40F91C66195D223B00C6F645 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				40F91C67195D223B00C6F645 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		40F91C7F195D223B00C6F645 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				40F91C80195D223B00C6F645 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		40F91C84195D223B00C6F645 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		40F91C85195D223B00C6F645 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		40F91C87195D223B00C6F645 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ShowNextTask/ShowNextTask-Prefix.pch";
+				INFOPLIST_FILE = "ShowNextTask/ShowNextTask-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		40F91C88195D223B00C6F645 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ShowNextTask/ShowNextTask-Prefix.pch";
+				INFOPLIST_FILE = "ShowNextTask/ShowNextTask-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		40F91C8A195D223B00C6F645 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ShowNextTask.app/ShowNextTask";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ShowNextTask/ShowNextTask-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ShowNextTaskTests/ShowNextTaskTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		40F91C8B195D223B00C6F645 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ShowNextTask.app/ShowNextTask";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ShowNextTask/ShowNextTask-Prefix.pch";
+				INFOPLIST_FILE = "ShowNextTaskTests/ShowNextTaskTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		40F91C55195D223A00C6F645 /* Build configuration list for PBXProject "ShowNextTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40F91C84195D223B00C6F645 /* Debug */,
+				40F91C85195D223B00C6F645 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40F91C86195D223B00C6F645 /* Build configuration list for PBXNativeTarget "ShowNextTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40F91C87195D223B00C6F645 /* Debug */,
+				40F91C88195D223B00C6F645 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40F91C89195D223B00C6F645 /* Build configuration list for PBXNativeTarget "ShowNextTaskTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40F91C8A195D223B00C6F645 /* Debug */,
+				40F91C8B195D223B00C6F645 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 40F91C52195D223A00C6F645 /* Project object */;
+}
